@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>Event List</h1>
+
+    <div class="eventList">
+        <div class="eventItem" *ngFor="let event of events">
+            <p>Title: {{event.Title}}</p>
+            <p>Date: {{event.Date}}</p>
+            <p>Location: {{event.Location}}</p>
+            <p>Description: {{event.Description}}</p>
+        </div>
+    </div>
+</div>

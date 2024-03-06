@@ -1,0 +1,22 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.eventList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.eventItem {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
